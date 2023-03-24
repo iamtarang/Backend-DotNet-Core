@@ -1,6 +1,8 @@
 global using Backend.Services.CharacterService;
 global using Backend.Models;
 global using Backend.DTOs.Character;
+global using AutoMapper;
+global using Microsoft.EntityFrameworkCore;
 
 
 var builder = WebApplication.CreateBuilder(args);

@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace Backend.DTOs.Character
 {
-    public class AddCharacterDTO
+    public class UpdateCharacterDTO
     {
+         public int Id { get; set; }
         public string Name { get; set; } = "Tarang"; //add "?" after datatype to make the field nullable
         public int HitPoints { get; set; } = 100;
         public int Strength { get; set; } = 10;
